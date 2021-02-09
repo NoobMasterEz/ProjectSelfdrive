@@ -1,0 +1,23 @@
+{
+    "Autopliot":{
+        "ip_came":"http://192.168.1.4:8085/?action=stream",
+        "save":"Autopilot-TensorFlow/save/model.ckpt",
+        "localIP":"127.0.0.1",
+        "localPort":65535,
+        "bufferSize":1024
+
+
+    },
+    "SteeringWheel":
+    {
+        "img":"UI/steering_wheel_image.jpg",
+        "localIP":"127.0.0.1",
+        "localPort":65535,
+        "bufferSize":1024
+
+    },
+    "Video":
+    {
+        "ip_cam":"http://192.168.1.4:8085/?action=stream"
+    }
+}
