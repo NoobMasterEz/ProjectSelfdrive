@@ -8,7 +8,6 @@ IP_PORT = 22000
 def debug(text):
     if VERBOSE:
         print("Debug:---", text)
-
 # ------------------------- class Receiver ---------------------------
 class Receiver(Thread):
     def run(self):
